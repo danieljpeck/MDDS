@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 49, in script
+    m "It's a kind of videogame you can play on your computer or a console."
+Exception: Sayer 'm' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 49, in script
+    m "It's a kind of videogame you can play on your computer or a console."
+  File "/Users/Daniel/Desktop/renpy-7.3.2-sdk/renpy/ast.py", line 676, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Users/Daniel/Desktop/renpy-7.3.2-sdk/renpy/ast.py", line 574, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'm' is not defined.
+
+Darwin-18.7.0-x86_64-i386-64bit
+Ren'Py 7.3.2.320
+MDDS 1.0
+Sat Oct 12 18:26:23 2019
